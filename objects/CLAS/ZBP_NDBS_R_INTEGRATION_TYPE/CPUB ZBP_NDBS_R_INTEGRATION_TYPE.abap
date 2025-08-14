@@ -1,0 +1,1 @@
+CLASS zbp_ndbs_r_integration_type DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF yndbs_r_integration_type.
