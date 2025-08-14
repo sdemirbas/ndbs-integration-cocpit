@@ -7,7 +7,7 @@ lock master
 authorization master ( instance )
 //etag master <field_name>
 {
-  create ( authorization : global );
+  create ( authorization : none );
   update;
   delete;
 
