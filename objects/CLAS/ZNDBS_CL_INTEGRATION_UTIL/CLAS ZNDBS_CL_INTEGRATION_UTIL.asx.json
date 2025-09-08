@@ -297,7 +297,7 @@
     "EDITORDER":6,
     "LOCKED":"",
     "DISPID":0,
-    "R3RELEASE":"916",
+    "R3RELEASE":"",
     "AUTHOR":"",
     "CREATEDON":"2025-08-13",
     "CHANGEDBY":"",
@@ -1241,7 +1241,7 @@
     "EDITORDER":2,
     "LOCKED":"",
     "DISPID":0,
-    "R3RELEASE":"916",
+    "R3RELEASE":"",
     "AUTHOR":"",
     "CREATEDON":"2025-08-13",
     "CHANGEDBY":"",
@@ -1359,7 +1359,7 @@
     "EDITORDER":4,
     "LOCKED":"",
     "DISPID":0,
-    "R3RELEASE":"916",
+    "R3RELEASE":"",
     "AUTHOR":"",
     "CREATEDON":"2025-08-13",
     "CHANGEDBY":"",
@@ -1393,7 +1393,7 @@
     "TABLEOF":"",
     "SRCROW1":22,
     "SRCCOLUMN1":11,
-    "SRCROW2":26,
+    "SRCROW2":25,
     "SRCCOLUMN2":30,
     "REFCLSNAME":"",
     "REFINTNAME":"",
@@ -1404,8 +1404,8 @@
     "BCMTDCOM":"",
     "BCMTDSYN":0,
     "BCEVTCAT":0,
-    "TYPESRC_LENG":219,
-    "TYPESRC":"BEGIN OF ty_log_detail,\r\n*             step_name      TYPE YNDBS_e_step_name,\r\n             step_status    TYPE yndbs_e_status,\r\n             step_error_msg TYPE yndbs_e_error_message,\r\n           END OF ty_log_detail\r\n"
+    "TYPESRC_LENG":177,
+    "TYPESRC":"BEGIN OF ty_log_detail,\r\n             step_status    TYPE yndbs_e_integration_status,\r\n             step_error_msg TYPE yndbs_e_error_message,\r\n           END OF ty_log_detail\r\n"
    }
   ]
  },

@@ -20,8 +20,7 @@ CLASS zndbs_cl_integration_util DEFINITION
              error_message    TYPE yndbs_e_error_message,
            END OF ty_log,
            BEGIN OF ty_log_detail,
-*             step_name      TYPE YNDBS_e_step_name,
-             step_status    TYPE yndbs_e_status,
+             step_status    TYPE yndbs_e_integration_status,
              step_error_msg TYPE yndbs_e_error_message,
            END OF ty_log_detail.
     CLASS-METHODS:
